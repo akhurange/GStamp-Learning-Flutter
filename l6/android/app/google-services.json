@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "668450962175",
+    "project_id": "gstamplearningclub",
+    "storage_bucket": "gstamplearningclub.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:668450962175:android:266980cc7295b9af61eaca",
+        "android_client_info": {
+          "package_name": "com.example.l6"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr42ijoAlvbDO6AlfG_KIMAhPPeiM5fP8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
