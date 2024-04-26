@@ -58,22 +58,22 @@ class _LoginPageState extends State<LoginPage> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: <Widget>[
-                Row(
+                /*  Row(
                   children: [
                     const Spacer(),
-                    Container(
+                    /*Container(
                       height: 100,
                       width: 300,
                       decoration: const BoxDecoration(
                         image: DecorationImage(
-                          image: AssetImage('assets/eb_logo.jpg'),
+                          image: AssetImage('assets/logo.png'),
                           fit: BoxFit.fill,
                         ),
                       ),
-                    ),
+                    ),*/
                     const Spacer(),
                   ],
-                ),
+                ),*/
                 const SizedBox(
                   height: 32.0,
                 ),

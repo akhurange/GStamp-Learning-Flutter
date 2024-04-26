@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:l6/cloud/cloud_authentication.dart';
+import 'package:l6/item_provider.dart';
 import 'package:l6/root.dart';
+import 'package:provider/provider.dart';
 
 import 'cloud/cloud_connector.dart';
 
@@ -22,6 +24,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
         // This is the theme of your application.
@@ -42,7 +45,9 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: RootPage(auth: CloudAuthentication()),
+      home: ChangeNotifierProvider(
+          create: (BuildContext context) => ItemProvider(),
+          child: RootPage(auth: CloudAuthentication())),
     );
   }
 }
